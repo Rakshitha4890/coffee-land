@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.coffee{
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://img.freepik.com/free-photo/coffee-cup-white-wood-table-with-bright-blue-sea-background_63726-527.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+    
+}
+.nav-logo img{
+    width: 130px;
+}
+
+.nav-links{
+    flex: 1;
+}
+
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+
+.nav-links ul a{
+    color:#edffea;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #f6f578;
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+   
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: #f6f578;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.nav-links .btn{
+    float:right;
+   }
+
+.banner-title{
+    margin: 80px 130px;
+    color: #f8f3eb;
+}
+.banner-title h1{
+    font-size:50px;
+    margin-bottom: 30px;
+}
+.banner-title h1 span{
+    color: #bb3b0e;
+}
+
+
+.social-icons{
+    right: 72px;
+    bottom:35px;
+    position: absolute;
+}
+
+.social-icons .fa{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #f6f578;
+    padding: 5px;
+    display: block;
+}
+    
+
